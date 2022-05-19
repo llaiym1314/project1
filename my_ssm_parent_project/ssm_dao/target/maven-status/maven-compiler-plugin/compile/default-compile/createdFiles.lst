@@ -1,0 +1,7 @@
+com\liliang\ssm\dao\IOrdersDao.class
+com\liliang\ssm\dao\IRoleDao.class
+com\liliang\ssm\dao\ITravellerDao.class
+com\liliang\ssm\dao\IProductDao.class
+com\liliang\ssm\dao\IUserDao.class
+com\liliang\ssm\dao\IMemberDao.class
+com\liliang\ssm\dao\IPermissionDao.class

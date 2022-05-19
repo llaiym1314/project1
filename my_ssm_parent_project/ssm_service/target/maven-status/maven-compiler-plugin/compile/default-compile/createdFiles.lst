@@ -1,0 +1,10 @@
+com\liliang\ssm\service\impl\UserServiceImpl.class
+com\liliang\ssm\service\IProductService.class
+com\liliang\ssm\service\impl\RoleServiceImpl.class
+com\liliang\ssm\service\IPermissionService.class
+com\liliang\ssm\service\IOrdersService.class
+com\liliang\ssm\service\impl\PermissionServiceImpl.class
+com\liliang\ssm\service\IRoleService.class
+com\liliang\ssm\service\impl\ProductServiceImpl.class
+com\liliang\ssm\service\impl\OrdersServiceImpl.class
+com\liliang\ssm\service\IUserService.class

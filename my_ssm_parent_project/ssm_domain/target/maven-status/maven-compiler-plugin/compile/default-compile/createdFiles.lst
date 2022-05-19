@@ -1,0 +1,7 @@
+com\liliang\domain\Orders.class
+com\liliang\domain\Product.class
+com\liliang\domain\Role.class
+com\liliang\domain\Member.class
+com\liliang\domain\UserInfo.class
+com\liliang\domain\Traveller.class
+com\liliang\domain\Permission.class
