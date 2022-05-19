@@ -7,6 +7,7 @@
 <title>主页</title>
 </head>
 <body>
-	hello,ssm!!
+<!-- 	<a href="product/findAll">查询所有的产品信息</a> -->
+	<jsp:forward page="/pages/main.jsp"></jsp:forward>
 </body>
 </html>

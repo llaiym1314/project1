@@ -31,13 +31,14 @@
 	<!-- 把交给IOC管理 SqlSessionFactory -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
    		<property name="dataSource" ref="dataSource" />
-   		<!-- 传入PageHelper的插件 -->
+<!--    		传入PageHelper的插件 -->
    		<property name="plugins">
    			<array>
-   				<!-- 传入插件的对象 -->
+<!-- 传入插件的对象 -->
    				<bean class="com.github.pagehelper.PageInterceptor">
    					<property name="properties">
    						<props>
+<!--    						数据库方言 -->
    							<prop key="helperDialect">mysql</prop>
    							<prop key="reasonable">true</prop>
    						</props>
@@ -49,7 +50,7 @@
 	
 	<!-- 扫描dao接口 -->
 	<bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-   		<property name="basePackage" value="com.qianfeng.ssm.dao"/>
+   		<property name="basePackage" value="com.liliang.ssm.dao"/>
    	</bean>
 	
 	<!-- 配置Spring的声明式事务管理 -->

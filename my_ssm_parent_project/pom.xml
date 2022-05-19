@@ -135,7 +135,7 @@
             <artifactId>pagehelper</artifactId>
             <version>5.1.2</version>
         </dependency>
-		<!--
+		
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
@@ -155,7 +155,7 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
             <version>${spring.security.version}</version>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>com.oracle</groupId>
@@ -169,7 +169,7 @@
 	      <version>${mysql.version}</version>
 	    </dependency>
 		
-        <dependency>
+        <dependency><!-- 做权限控制使用的依赖 -->
             <groupId>javax.annotation</groupId>
             <artifactId>jsr250-api</artifactId>
             <version>1.0</version>
@@ -192,6 +192,7 @@
             </plugins>
         </pluginManagement>
     </build>
+    
   <modules>
 
   <module>ssm_utils</module>
